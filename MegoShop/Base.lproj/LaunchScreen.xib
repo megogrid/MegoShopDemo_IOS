@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment version="2048" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shop.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Whx-TH-qhM">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Whx-TH-qhM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Jgc-GR-T9R"/>
+                <constraint firstItem="Whx-TH-qhM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Sid-DI-4Ee"/>
+                <constraint firstItem="Whx-TH-qhM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ZA9-zl-o6X"/>
+                <constraint firstAttribute="trailing" secondItem="Whx-TH-qhM" secondAttribute="trailing" id="lt3-P0-Ufc"/>
+                <constraint firstItem="Whx-TH-qhM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vch-kv-6hf"/>
+                <constraint firstAttribute="bottom" secondItem="Whx-TH-qhM" secondAttribute="bottom" id="zW6-0H-DzR"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="828" y="465"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="shop.jpg" width="640" height="1136"/>
+    </resources>
+</document>
